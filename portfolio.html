@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Will Salomon</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -15,50 +16,71 @@
       <nav>
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    <a href="portfolio.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link">
+                <a href="contact.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">index</a>
+              <a class="nav-link">
+                <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Index</a>
             </li>
           </ul>
       </nav>
     </div>
   </header>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>The Phish From Vermont</h1>
+<div class="row">
 
-      <div class="work">
-        <img src="assets/images/Trey.jpg" alt="Daddy">
-        
-        <h3>Trey</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Mike.jpg" alt="Mikey Boy">
+  <div class="col-sm work">
+    <img src="assets/images/Trey.jpg" alt="Daddy" class="responsive">
+    
+    <h3>Trey</h3>
+  </div>
+  <div class="work col-sm">
+    <img src="assets/images/Mike.jpg" alt="Mikey Boy" class="responsive">
+    
+    <h3>Mike</h3>
+  </div>
+  <div class="work col-sm">
+    <img src="assets/images/Page.jpg" alt="Sweet Page" class="responsive">
+    
+    <h3>Page</h3>
+  </div>
+</div>
+<div class="row">
 
-        <h3>Mike</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Page.jpg" alt="Sweet Page">
-
-        <h3>Page</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Fish.jpg" alt="Jon Fishman">
-
-        <h3>Jon</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/Timewarp.jpg" alt="Phish Time Machine">
-
-        <h3>MSG NYE</h3>
-      </div>
-
-    </section>
+  <div class="work col-sm">
+    <img src="assets/images/Fish.jpg" alt="Jon Fishman" class="responsive">
+    
+    <h3>Jon</h3>
+  </div>
+  <div class="work col-sm">
+    <img src="assets/images/Timewarp.jpg" alt="Phish Time Machine" class="responsive">
+    
+    <h3>MSG NYE</h3>
+  </div>
+</div>
+  
+</section>
 
   </div>
 
